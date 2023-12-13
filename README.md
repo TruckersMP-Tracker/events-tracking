@@ -24,7 +24,7 @@ Tracking will start sometime before the end of 2023, and we aim to begin trackin
 
 ## When Will Tracking Stop?
 
-We will stop tracking your event once it's two hours after the advertised departure time, or after the event server goes offline. Whatever applies and happens first. Once stopped, tracking cannot be restarted unless a new event begins.
+We will cease tracking your event either two hours after the advertised departure time or when the event server goes offline, whichever occurs first. Once stopped, tracking cannot be resumed unless a new event begins. Tracking for individual users may also terminate when a user leaves the server where an event is occurring. Subsequently, tracking does not resume for that user if they rejoin the server they previously left during an ongoing event tracking session. However, if a user leaves one server and joins another server hosting an event, they will be tracked on the new server. Additionally, users will be tracked if they are anywhere on a new or existing server that is considered on-route or a start/end city.
 
 ## Data Storage And Retention
 
