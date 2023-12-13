@@ -1,29 +1,21 @@
 # Event and Ban Tracking System
 
-## Introduction
+The approach to data collection for events is contingent upon the specific circumstances of each event. Distinct techniques are employed due to the impracticality of using the same information storage approach for event servers as for simulation servers, specifically in tracking players joining or leaving a server. Consequently, data collection is exclusive to events hosted on event servers. For events on simulation servers, tracking becomes challenging. To address this, we focus on tracking players in cities or along a route, rather than monitoring every player joining or leaving the server. It's important to note that the accuracy of our collection on simulation servers may not be as high as with event servers.
 
-The way we collect data for events depends on an event's circumstances. The difference in techniques comes because it'd be illogical for us to store the same information we store for event servers for simulation servers.
+## Event Servers
+When an event takes place on an event server, we meticulously track every player joining and leaving the server. Subsequently, we scrutinize their movement data to ascertain whether they were present in either the start or end city or both. Following this analysis, we confidently establish their presence based on the frequency of appearances in the start or end city. You can access our findings via our API or request an event overview via our Discord bot. **However, we strongly advise against generating an event overview unless you are an advanced user, as it can be intricate.**
 
-### Event Servers
+## Simulation Servers
+Unlike event servers, simulation servers tend to have far more players. Therefore, tracking every single one of them isn't ideal. Especially since we're only after those who attended your event. To combat this, we only look at players in the start and end city. We may also, if calculatable, work with a bounding box covering the area of the route. However, we will usually stick with just looking at the start and end cities. This means that we will see everyone that comes in and out of both the aforementioned cities. It's important to note that companies outside of the start city, i.e., considered in a separate city, will **not be covered** unless a route bounding box covers an area including said company.
 
-When an event is on an event server, we track every player that joins and leaves the server. We then compare their movement data to see if they were in either the start or end city or both. Afterward, we confidently determine their presence based on the frequency of appearances in the start or end city. You can view our findings via our API or request an event overview via our Discord bot. **However, we recommend that unless you're an advanced user, not to generate an event overview as it can be quite confusing.**
+## Tracking Bans
+As a general rule, we track every ban regardless of where your event is hosted. This means that we'll track every person that gets banned on event servers and simulation servers. By tracking bans, what we mean is we'll check if, when somebody leaves, their account is showing as banned. If it is, we'll consider them as having been banned in-game. For event servers, we'll include the names of every user at the time they were banned. For simulation servers, we'll include the name of every user that's banned and their last known location if calculatable.
 
-### Simulation Servers
+## When We Don't Track
+For events on simulation server 1, tracking is forbidden for convoys operating in or around Calais, Dusseldorf, or Duisburg. This includes the adjoining roads and the infamous Calais - Duisburg (C-D) Road. For events on ProMods, tracking is forbidden for convoys operating in or around Kirkenes & Kirkenes Quarry. We also forbid any tracking on events that contravene rule §2.6. Events that include any of these areas, on any of the aforementioned excluded servers, will not undergo tracking. This is mainly due to the sheer number of people in these areas and because their occurrence directly contravenes TruckersMP rules. We may also limit tracking on event servers when the event is official in nature. Effectively meaning, we won't track events including, but not limited to Freeroam or TMP birthday celebrations. For official convoys where the expected player attendance is greater than 250, we will only store the id, gameId, Name, and City name of each player.
 
-Simulation servers tend to have more players. Therefore, tracking every single one of them isn't ideal, especially since we're only interested in those who attended your event. To combat this, we focus on players in the start and end city or, if calculatable, work with a bounding box covering the area of the route. Generally, we stick with looking at the start and end cities.
+## Tracking Periods
+Tracking will start sometime before the end of 2023, and we aim to begin tracking automatically as soon as an event server comes online and/or its the advertised meetup_at time. We track with an update interval of 30 seconds. This means that in the time leading up to departure when the meetup_at time is 30 mins before, we will have checked things 60 times.
 
-### Tracking Bans
-
-As a general rule, we track every ban regardless of where your event is hosted. This means that we'll track every person that gets banned on event servers and simulation servers. We check if, when somebody leaves, their account is showing as banned.
-
-### When We Don't Track
-
-For events on simulation 1, tracking is forbidden for convoys operating in or around Calais, Dusseldorf, or Duisburg. This includes the adjoining roads and the infamous Calais - Duisburg (C-D) Road. For events on ProMods, tracking is forbidden for convoys operating in or around Kirkenes & Kirkenes Quarry. We also forbid any tracking on events that contravene rule §2.6. Events that include any of these areas, on any of the aforementioned excluded servers, will not be subject to tracking. We may also limit tracking on event servers when the event is official in nature. For official convoys where the expected player attendance is greater than 250, we will only store the id, gameId, Name, and City name of each player.
-
-### Tracking Periods
-
-Tracking will start sometime before the end of 2023, and we aim to begin tracking automatically as soon as an event server comes online and/or its the advertised meetup_at time. We track with an update interval of 30 seconds.
-
-### Tracking End
-
-We will stop tracking your event once it's two hours after the advertised departure time or after the event server goes offline, whichever happens first. Once stopped, tracking cannot be restarted unless a new event begins.
+## When Will Tracking Stop?
+We will stop tracking your event once it's two hours after the advertised departure time, or after the event server goes offline. Whatever applies and happens first. Once stopped, tracking cannot be restarted unless a new event begins.
