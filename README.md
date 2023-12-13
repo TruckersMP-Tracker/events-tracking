@@ -28,7 +28,7 @@ We will cease tracking your event either two hours after the advertised departur
 
 ## Data Storage And Retention
 
-After an event, raw data is compressed into a more readable version. This more [readable version](https://github.com/TruckersMP-Tracker/events-tracking/blob/main/json/examples/event_test/compressed_test_doc.json) is stored separately from the raw data and serves as the data used for our API. This means that the data accessible via our API is:
+After an event, raw data is compressed into a more [readable version](https://github.com/TruckersMP-Tracker/events-tracking/blob/main/json/examples/event_test/compressed_test_doc.json). This more readable version is stored separately from the raw data and serves as the data used for our API. This means that the data accessible via our API is:
 
 ```json
 {
@@ -43,7 +43,9 @@ We will hold onto raw data in its raw form until 30 days after an event. We will
 
 ## What Should Our Data Be Used For?
 
-The purpose of our data is to give VTCs and organising parties the ability to see attendance data. It also allows VTCs that offer incentives for attending events to correctly see which users have indeed attended events. Our data shouldn't be used in any other way than the ways mentioned above. If you're found to be using our data in a way that contravenes this, your access to said data and systems will be **permanently removed**.
+The purpose of our data is to give VTCs and organising parties the ability to see attendance data. It also allows VTCs that offer incentives for attending events to correctly see which users have indeed attended events. Our data shouldn't be used in any other way than the ways mentioned above. If
+
+ you're found to be using our data in a way that contravenes this, your access to said data and systems will be **permanently removed**.
 
 ## What You Cannot Do With Our Data?
 
