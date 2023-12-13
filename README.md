@@ -19,3 +19,26 @@ Tracking will start sometime before the end of 2023, and we aim to begin trackin
 
 ## When Will Tracking Stop?
 We will stop tracking your event once it's two hours after the advertised departure time, or after the event server goes offline. Whatever applies and happens first. Once stopped, tracking cannot be restarted unless a new event begins.
+
+## Data Storage And Retention
+After an event, raw data is compressed into a more readable version. This more readable version is stored separately from the raw data and serves as the data used for our API. This means that the data accessible via our API is:
+
+```json
+{
+  "MpId": 2,
+  "Event": 19029,
+  "Start": true,
+  "End": true
+}
+```
+
+We will hold onto raw data in its raw form until 30 days after an event. We will then anonymise said data or delete it, depending on the reliance on the data. Raw data is accessible by the organising party of any such event. Raw data doesn't, in itself, contain any information that could identify a person in a way that could inflict harm, contravene TruckersMP rules, or require its immediate after-recording deletion. Therefore, we feel it safe to retain said raw data for 30 days. The aforementioned 'more-readable' version or 'compressed' version is retained permanently. We retain this on a per-user basis, i.e., each user has their own document in our DB per event they're an attendee of. The purpose of this data's permanent retention is to ensure we can operate.
+
+## What Should Our Data Be Used For?
+The purpose of our data is to give VTCs and organising parties the ability to see attendance data. It also allows VTCs that offer incentives for attending events to correctly see which users have indeed attended events. Our data shouldn't be used in any other way than the ways mentioned above. If you're found to be using our data in a way that contravenes this, your access to said data and systems will be **permanently removed**.
+
+## What You Cannot Do With Our Data?
+You cannot use data held by us to harass, stalk, insult, gain an advantage over others, unless considered acceptable by ourselves and organisers, or any other malicious or unsavoury use case. You may also not use data held by us to break any TruckersMP rule and/or break TruckersMP's Privacy Policy.
+
+## Unaffiliation Notice
+We're not affiliated with TruckersMP, SCS, ProMods, TruckersFM, or any other parties. We're a solo party operating with the sole intent of providing unseen yet useful stats to the community. All data that passes through our hands is considered public up until the point of its privation at source, i.e., the user deletes their account and/or removes said information from their profile.
