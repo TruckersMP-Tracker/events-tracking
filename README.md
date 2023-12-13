@@ -1,4 +1,4 @@
-# Event and Ban Tracking System
+# Event Tracking System
 
 The approach to data collection for events is contingent upon the specific circumstances of each event. Distinct techniques are employed due to the impracticality of using the same information storage approach for event servers as for simulation servers, specifically in tracking players joining or leaving a server. Consequently, data collection is exclusive to events hosted on event servers. For events on simulation servers, tracking becomes challenging. To address this, we focus on tracking players in cities or along a route, rather than monitoring every player joining or leaving the server. It's important to note that the accuracy of our collection on simulation servers may not be as high as with event servers.
 
