@@ -16,7 +16,7 @@ As a general rule, we track every ban regardless of where your event is hosted. 
 
 ## When We Don't Track
 
-For events on simulation 1, tracking is forbidden for convoys operating in or around Calais, Dusseldorf, or Duisburg. This includes the adjoining roads and the infamous Calais - Duisburg (C-D) Road. For events on ProMods, tracking is forbidden for convoys operating in or around Kirkenes & Kirkenes Quarry. We also forbid any tracking on events that contravene rule §2.6. Events that include any of these areas, on any of the aforementioned excluded servers, will not undergo tracking. This is mainly due to the sheer number of people in these areas and because their occurrence directly contravenes TruckersMP rules. We may also limit tracking on event servers when the event is official in nature. Effectively meaning, we won't track events including, but not limited to Freeroam or TMP birthday celebrations. For official convoys where the expected player attendance is greater than 250, we will only store the id, gameId, Name, and City name of each player.
+For events on simulation 1, tracking is forbidden for convoys operating in or around Calais, Dusseldorf, or Duisburg. This includes the adjoining roads and the infamous Calais - Duisburg (C-D) Road. For events on ProMods, tracking is forbidden for convoys operating in or around Kirkenes & Kirkenes Quarry. We also forbid any tracking on events that contravene rule §2.6. Events that include any of these areas, on any of the aforementioned excluded servers, will not undergo tracking. This is mainly due to the sheer number of people in these areas and because their occurrence directly contravenes TruckersMP rules. We may also limit tracking on event servers when the event is official in nature. Effectively meaning, we won't track events including, but not limited to Freeroam or TMP birthday celebrations. For official convoys where the expected player attendance is greater than 250, we will only store the id, gameId, Name, and City name of each player. We do not track events on a per-request basis; instead, we track all events as they appear on the TruckersMP API.
 
 ## Tracking Periods
 
@@ -52,3 +52,10 @@ You cannot use data held by us to harass, stalk, insult, gain an advantage over 
 ## Unaffiliation Notice
 
 We're not affiliated with TruckersMP, SCS, ProMods, TruckersFM, or any other parties. We're a solo party operating with the sole intent of providing unseen yet useful stats to the community. All data that passes through our hands is considered public up until the point of its privation at source, i.e., the user deletes their account and/or removes said information from their profile.
+
+## Data Sources
+- [TruckersMP](https://truckersmp.com)
+- [TruckersMP API](https://truckersmp.com/developers/api)
+- [TruckersMP Map](https://map.truckersmp.com)
+- [Steam API](https://steamcommunity.com/dev)
+- [Trucky API](https://api.truckyapp.com/docs)
