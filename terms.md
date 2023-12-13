@@ -32,7 +32,7 @@ By using the TruckersMP Tracker Events Tracking service ("Service"), you agree t
 
 5. **When Tracking Stops:** Tracking ceases two hours after the advertised departure time or when the event server goes offline. Resumption requires a new event. Tracking for individual users may stop upon leaving an event server but resumes on joining another event server.
 
-6. **Data Storage and Retention:** Raw data is retained for 30 days, followed by anonymisation or deletion. Compressed data is stored permanently per user for operational purposes.
+6. **Data Storage and Retention:** Raw data is retained for 60 days, followed by anonymisation or deletion. Compressed data is stored permanently per user for operational purposes.
 
 ### Security and Privacy
 
