@@ -18,7 +18,7 @@ Post-event, raw data is compressed into a more readable version for per-player a
 
 ### Data Storage and Retention
 
-Raw data is retained for 30 days, followed by anonymisation or deletion based on reliance. Compressed data is permanently stored per user for operational purposes. A sample raw data document is available [here](https://github.com/TruckersMP-Tracker/events-tracking/blob/main/json/examples/event_test/raw_test_doc.json).
+Raw data is retained for 60 days, followed by anonymisation or deletion based on reliance. Compressed data is permanently stored per user for operational purposes. A sample raw data document is available [here](https://github.com/TruckersMP-Tracker/events-tracking/blob/main/json/examples/event_test/raw_test_doc.json).
 
 ### Data Usage
 
