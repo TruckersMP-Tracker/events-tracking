@@ -26,7 +26,7 @@ The primary purpose is to provide VTCs and organisers with attendance insights. 
 
 ### User Access
 
-People with access to all data are strictly limited to authorised users. The only authorised user is "Bean." VTC personnel may request specific user data, receiving the bare minimum required. Public players cannot request access to others' data but may request a JSON dump of their stored data across all our services.
+Access to all data is strictly limited to authorised users. The only authorised user is "Bean." VTC personnel may request specific user data, receiving the bare minimum required. Public players cannot request access to others' data but may request a JSON dump of their stored data across all our services.
 
 ### Security and Confidentiality
 
@@ -34,7 +34,7 @@ Data is secure, not sold to third parties, and sourced through legal and public 
 
 ### Changes to This Privacy Policy
 
-We retain the right to delete users' data, block users from accessing their data if the way in which they're accessing it contravenes our rules, and to update, make changes to, and remove any of this privacy policy with forewarning or notification. The Effective Date will be updated upon an update.
+We retain the right to delete users' data, block users from accessing their data if the way in which they're accessing it contravenes our rules, and to update and remove any of this privacy policy without forewarning or notification. The Effective Date will be updated upon an update.
 
 We may update this policy periodically, with changes effective upon posting the updated policy on our [GitHub repository](https://github.com/TruckersMP-Tracker/events-tracking). Regularly review this policy for any updates.
 
