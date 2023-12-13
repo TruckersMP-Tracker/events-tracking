@@ -8,7 +8,7 @@ When an event takes place on an event server, we meticulously track every player
 ## Simulation Servers
 Unlike event servers, simulation servers tend to have far more players. Therefore, tracking every single one of them isn't ideal. Especially since we're only after those who attended your event. To combat this, we only look at players in the start and end city. We may also, if calculatable, work with a bounding box covering the area of the route. However, we will usually stick with just looking at the start and end cities. This means that we will see everyone that comes in and out of both the aforementioned cities. It's important to note that companies outside of the start city, i.e., considered in a separate city, will **not be covered** unless a route bounding box covers an area including said company.
 
-## Tracking Bans
+## Tracking Bans At Events
 As a general rule, we track every ban regardless of where your event is hosted. This means that we'll track every person that gets banned on event servers and simulation servers. By tracking bans, what we mean is we'll check if, when somebody leaves, their account is showing as banned. If it is, we'll consider them as having been banned in-game. For event servers, we'll include the names of every user at the time they were banned. For simulation servers, we'll include the name of every user that's banned and their last known location if calculatable.
 
 ## When We Don't Track
