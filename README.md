@@ -28,7 +28,7 @@ We will stop tracking your event once it's two hours after the advertised depart
 
 ## Data Storage And Retention
 
-After an event, raw data is compressed into a more readable version. This more [readable version]() is stored separately from the raw data and serves as the data used for our API. This means that the data accessible via our API is:
+After an event, raw data is compressed into a more readable version. This more [readable version](https://github.com/TruckersMP-Tracker/events-tracking/blob/main/json/examples/event_test/compressed_test_doc.json) is stored separately from the raw data and serves as the data used for our API. This means that the data accessible via our API is:
 
 ```json
 {
