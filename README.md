@@ -1,6 +1,6 @@
 # Event Tracking System
 
-The approach to data collection for events is contingent upon the specific circumstances of each event. Distinct techniques are employed due to the impracticality of using the same information storage approach for event servers as for simulation servers, specifically in tracking players joining or leaving a server. Consequently, data collection is exclusive to events hosted on event servers. For events on simulation servers, tracking becomes challenging. To address this, we focus on tracking players in cities or along a route, rather than monitoring every player joining or leaving the server. It's important to note that the accuracy of our collection on simulation servers may not be as high as with event servers.
+The approach to data collection for events depends on the specific circumstances of each event. Distinct techniques are employed due to the impracticality of using the same information storage approach for event servers as for simulation servers, specifically in tracking players joining or leaving a server. Consequently, data collection is exclusive to events hosted on event servers. For events on simulation servers, tracking becomes challenging. To address this, we focus on tracking players in cities or along a route, rather than monitoring every player joining or leaving the server. It's important to note that the accuracy of our collection on simulation servers may not be as high as with event servers.
 
 ## Event Servers
 
@@ -12,7 +12,7 @@ Unlike event servers, simulation servers tend to have far more players. Therefor
 
 ## Tracking Bans At Events
 
-As a general rule, we track every ban regardless of where your event is hosted. This means that we'll track every person that gets banned on event servers and simulation servers. By tracking bans, what we mean is we'll check if, when somebody leaves, their account is showing as banned. If it is, we'll consider them as having been banned in-game. For event servers, we'll include the names of every user at the time they were banned. For simulation servers, we'll include the name of every user that's banned and their last known location if calculatable. **These tracking rules apply to event-tracked bans only.**
+As a general rule, we track every ban regardless of where your event is hosted. This means that we'll track every person that gets banned on event servers and simulation servers. By tracking bans, we mean checking if, when somebody leaves, their account is showing as banned. If it is, we'll consider them as having been banned in-game. For event servers, we'll include the names of every user at the time they were banned. For simulation servers, we'll include the name of every user that's banned and their last known location if calculatable. **These tracking rules apply to event-tracked bans only.**
 
 ## When We Don't Track
 
@@ -20,7 +20,7 @@ For events on simulation server 1, tracking is forbidden for convoys operating i
 
 ## Tracking Periods
 
-Tracking will start sometime before the end of 2023, and we aim to begin tracking automatically as soon as an event server comes online or at its the advertised meetup_at time. We track with an update interval of 30 seconds. This means that in the time leading up to departure when the meetup_at time is 30 mins before, we will have checked things 60 times.
+Tracking will start sometime before the end of 2023, and we aim to begin tracking automatically as soon as an event server comes online or at its advertised meetup_at time. We track with an update interval of 30 seconds. This means that in the time leading up to departure when the meetup_at time is 30 mins before, we will have checked things 60 times.
 
 ## When Will Tracking Stop?
 
@@ -43,7 +43,9 @@ We will hold onto raw data in its raw form until 30 days after an event. We will
 
 ## What Should Our Data Be Used For?
 
-The purpose of our data is to give VTCs and organising parties the ability to see attendance data. It also allows VTCs that offer incentives for attending events to correctly see which users have indeed attended events. Our data shouldn't be used in any other way than the ways mentioned above. If you're found to be using our data in a way that contravenes this, your access to said data and systems will be **permanently removed**.
+The purpose of our data is to give VTCs and
+
+ organising parties the ability to see attendance data. It also allows VTCs that offer incentives for attending events to correctly see which users have indeed attended events. Our data shouldn't be used in any other way than the ways mentioned above. If you're found to be using our data in a way that contravenes this, your access to said data and systems will be **permanently removed**.
 
 ## What You Cannot Do With Our Data?
 
