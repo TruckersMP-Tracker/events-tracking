@@ -20,7 +20,7 @@ For events on simulation server 1, tracking is forbidden for convoys operating i
 
 ## Tracking Periods
 
-Tracking will start sometime before the end of 2023, and we aim to begin tracking automatically as soon as an event server comes online and/or its the advertised meetup_at time. We track with an update interval of 30 seconds. This means that in the time leading up to departure when the meetup_at time is 30 mins before, we will have checked things 60 times.
+Tracking will start sometime before the end of 2023, and we aim to begin tracking automatically as soon as an event server comes online or at its the advertised meetup_at time. We track with an update interval of 30 seconds. This means that in the time leading up to departure when the meetup_at time is 30 mins before, we will have checked things 60 times.
 
 ## When Will Tracking Stop?
 
