@@ -1,7 +1,3 @@
-Certainly! Below is a formatted version of your content for a GitHub README:
-
----
-
 # Event and Ban Tracking System
 
 ## Introduction
@@ -31,7 +27,3 @@ Tracking will start sometime before the end of 2023, and we aim to begin trackin
 ### Tracking End
 
 We will stop tracking your event once it's two hours after the advertised departure time or after the event server goes offline, whichever happens first. Once stopped, tracking cannot be restarted unless a new event begins.
-
----
-
-Feel free to adjust the formatting and wording as needed for your GitHub README.
