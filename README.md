@@ -54,7 +54,7 @@ The purpose of our data is to give VTCs and organising parties the ability to se
 You cannot use data held by us to harass, stalk, insult, gain an advantage over others, unless considered acceptable by ourselves and organisers, or any other malicious or unsavoury use case. You may also not use data held by us to break any TruckersMP rule and/or break TruckersMP's Privacy Policy.
 
 ## Use Cases For Our Data
-The primary use case for our data is **rewarding VTC members for attending events/convoys**. Many VTCs require convoy attendance, and our system enables these VTCs to easily identify members who participated in a convoy. Subsequently, they can efficiently award members based on their attendance. We also recognise use cases, including but not limited to: convoy organisers reviewing attendee numbers and convoy attendees viewing their own recorded attendance data. Whilst using our data, you **must** follow ['What Should Our Data Be Used For?'](). 
+The primary use case for our data is **rewarding VTC members for attending events/convoys**. Many VTCs require convoy attendance, and our system enables these VTCs to easily identify members who participated in a convoy. Subsequently, they can efficiently award members based on their attendance. We also recognise use cases, including but not limited to: convoy organisers reviewing attendee numbers and convoy attendees viewing their own recorded attendance data. Whilst using our data, you **must** follow ['What Should Our Data Be Used For?'](https://github.com/TruckersMP-Tracker/events-tracking/blob/main/README.md#what-should-our-data-be-used-for). 
 
 ## Unaffiliation Notice
 
